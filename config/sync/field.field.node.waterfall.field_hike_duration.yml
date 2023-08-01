@@ -1,0 +1,23 @@
+uuid: 6c0d0ee1-d14a-44e5-9aa4-5a4f015cc26d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hike_duration
+    - node.type.waterfall
+id: node.waterfall.field_hike_duration
+field_name: field_hike_duration
+entity_type: node
+bundle: waterfall
+label: 'Hike duration'
+description: 'Enter the round-trip duration of a typical hike, in minutes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' minutes'
+field_type: integer

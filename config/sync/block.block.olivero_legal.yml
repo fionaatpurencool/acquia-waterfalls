@@ -1,0 +1,25 @@
+uuid: e32dfcd7-c4b7-4a3e-8f13-6acfac9a0974
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.legal
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_legal
+theme: olivero
+region: footer_bottom
+weight: -8
+provider: null
+plugin: 'system_menu_block:legal'
+settings:
+  id: 'system_menu_block:legal'
+  label: Legal
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

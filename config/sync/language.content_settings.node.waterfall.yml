@@ -1,0 +1,11 @@
+uuid: 7f1ab5ef-2d35-4ecb-b409-504bb64f40b9
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.waterfall
+id: node.waterfall
+target_entity_type_id: node
+target_bundle: waterfall
+default_langcode: site_default
+language_alterable: false

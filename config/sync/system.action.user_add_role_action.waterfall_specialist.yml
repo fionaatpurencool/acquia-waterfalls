@@ -1,0 +1,14 @@
+uuid: a648f7ba-655d-4dc4-aea2-226a5440ec51
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - user.role.waterfall_specialist
+  module:
+    - user
+id: user_add_role_action.waterfall_specialist
+label: 'Add the Waterfall Specialist role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: waterfall_specialist

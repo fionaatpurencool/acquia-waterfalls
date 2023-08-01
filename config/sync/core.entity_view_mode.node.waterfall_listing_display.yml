@@ -1,0 +1,10 @@
+uuid: 1f30dbdd-b0b8-4544-a1b4-32720072146f
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+id: node.waterfall_listing_display
+label: 'Waterfall Listing Display'
+targetEntityType: node
+cache: true
